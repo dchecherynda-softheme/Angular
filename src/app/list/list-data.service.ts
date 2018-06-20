@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
+
 import { ArticleModel } from './list-details/article.model';
+
 @Injectable({
   providedIn: 'root'
 })
