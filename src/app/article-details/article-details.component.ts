@@ -5,16 +5,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./article-details.component.css']
 })
 export class ArticleDetailsComponent {
-    article={
-      id : 1,
-      title:'Як знімали рекламу Apple в Україні',
-      shortDescription:'Режисер кліпу Rolling in the Deep, скейтер з Іспанії та оператор на роликах з Південної Африки.'
-    };
-     heading: string;
+  article = {
+    id: 1,
+    title: 'Як знімали рекламу Apple в Україні',
+    shortDescription: 'Режисер кліпу Rolling in the Deep, скейтер з Іспанії та оператор на роликах з Південної Африки.'
+  };
+  heading: string;
 
-     isClicked:boolean = true;
+  isClicked: boolean = true;
 
-    changeColor(){
-      this.isClicked=!this.isClicked;
-    }
+  changeColor() {
+    this.isClicked = !this.isClicked;
+  }
 }

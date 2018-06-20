@@ -1,7 +1,7 @@
 <div class="container">
-<p>Стаття з рубрики: {{heading}}</p>
-<span class="UpperCase" (click)=changeColor()  [style.color]="isClicked? 'black': 'grey'">  {{article.title}}</span> 
-<p [style.color]="'grey'">{{article.shortDescription}}</p> 
-<input [(ng-model)]="heading">
-<p>Зазначте рубрику:  </p>
+  <p>Стаття з рубрики: {{heading}}</p>
+  <span class="UpperCase" (click)=changeColor() [style.color]="isClicked? 'black': 'grey'"> {{article.title}}</span>
+  <p [style.color]="'grey'">{{article.shortDescription}}</p>
+  <p>Зазначте рубрику:
+    <input [(ngModel)]="heading"> </p>
 </div>
