@@ -1,0 +1,6 @@
+.articles-container {
+    display: inline-block;
+    width: 40%;
+    padding: 30px;
+    vertical-align: top;
+}
